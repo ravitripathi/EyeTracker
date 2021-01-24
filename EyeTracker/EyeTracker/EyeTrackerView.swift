@@ -188,7 +188,7 @@ class ARTrackingDelegate: NSObject, ARSessionDelegate, ObservableObject {
 //        print(str)
         let point = points.first ?? .zero
 //        let screenWidth = UIScreen.main.bounds.width
-        let screenHeight = UIScreen.main.bounds.height
+//        let screenHeight = UIScreen.main.bounds.height
 //        let newP = CGPoint(x: (point.x*screenWidth)+100.0, y: -(point.y*screenHeight)+100.0)
         let windowCenterX = UIApplication.shared.windows.first?.center.x ?? 0.0
         let windowCenterY = UIApplication.shared.windows.first?.center.y ?? 0.0
